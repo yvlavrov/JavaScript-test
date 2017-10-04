@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test uchi.ru</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="main">
+    <div class="wrapper">
+        <div class="case">
+            <div class="number">
+                <p class="number__figure" id="figureA">7</p>
+            </div>
+            <div class="operator">
+                <p class="operator__figure">+</p>
+            </div>
+            <div class="number">
+                <p class="number__figure" id="figureB">4</p>
+            </div>
+            <div class="operator">
+                <p class="operator__figure">=</p>
+            </div>
+            <div class="number answer wInput">
+                <p class="number__figure" id="question">?</p>
+                <p class="operator__figure" id="figureC">?</p>
+                <input class="number__input" id="inputC" type="text" maxlength="2">
+            </div>
+        </div>
+        <div class="ruler">
+            <div class="arrows">
+                <div class="firstArrow">
+                    <div class="number">
+                        <p class="number__figure" id="figureAAboveArrow"></p>
+                        <input class="number__input" id="inputA" type="text" maxlength="1">
+                    </div>
+                    <img src="images/arrow.svg" id="firstArrow" width="162px" alt="">
+                </div>
+                <div class="secondArrow" id="secondArrowBlock">
+                    <div class="number">
+                        <p class="number__figure" id="figureBAboveArrow"></p>
+                        <input class="number__input" id="inputB" type="text" maxlength="1">
+                    </div>
+                    <img src="images/arrow.svg" id="secondArrow" width="106px" alt="">
+                </div>
+            </div>
+            <img class="ruler__img" src="images/sprite.png" alt="">
+        </div>
+    </div>
+</div>
+<script src="js/common.js"></script>
+</body>
+</html>
